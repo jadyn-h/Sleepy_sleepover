@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<head>
-
+<head>    
     <title>Feeling Sleepy?</title>  
     <style>
         body{
@@ -16,17 +15,11 @@
                 background-size: 100% 100%;
                 background-position: top;
                 background-repeat: no-repeat;
-                background-attachment: scroll;
+                background-attachment: fixed;
 
             }
-        h1{
-            font-size: 400%;
-        }
-        h2{
-            font-size: 200%;
-        }
-        h3{
-            font-size: 150%;
+        #minigameframe {
+            display: none;
         }
     </style>
         
@@ -60,6 +53,9 @@
     <p>Surrender to your dreams with Sleepy</p>
 
     <h5>Play Now</h5>
-     <iframe id= "frame" src="sleepy_website_design_frame.jpg" frameborder="0" height="100" width="250" title="Game Frame"></iframe>
+    <iframe src="sleepy_website_design_frame.jpg" frameborder="0" height="1920px" width="1080px" title="Game Frame" id="vnframe"></iframe>
+    <iframe src="sleepy_website_design_frame.jpg" frameborder="0" height="1920px" width="1080px" title="Game Frame" id="minigameframe"></iframe>
+    <script src="main.js" defer></script>
 </body>
+
 
