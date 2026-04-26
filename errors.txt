@@ -1,0 +1,38 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 63: expected statement.
+    renpy.emscripten.run_script('swapDisplay("game")')
+                                                      ^
+
+File "game/script.rpy", line 64: expected statement.
+    renpy.emscripten.run_script('loadMinigame("pizza")')
+                                                        ^
+
+File "game/script.rpy", line 81: expected statement.
+    renpy.emscripten.run_script('swapDisplay("game")')
+                                                      ^
+
+File "game/script.rpy", line 82: expected statement.
+    renpy.emscripten.run_script('loadMinigame("boba")')
+                                                       ^
+
+File "game/script.rpy", line 123: expected statement.
+    renpy.emscripten.run_script('swapDisplay("game")')
+                                                      ^
+
+File "game/script.rpy", line 124: expected statement.
+    renpy.emscripten.run_script('loadMinigame("bean")')
+                                                       ^
+
+File "game/script.rpy", line 136: expected statement.
+    renpy.emscripten.run_script('swapDisplay("game")')
+                                                      ^
+
+File "game/script.rpy", line 137: expected statement.
+    renpy.emscripten.run_script('loadMinigame("hack")')
+                                                       ^
+
+Ren'Py Version: Ren'Py 8.5.2.26010301
+Sun Apr 26 06:08:17 2026
