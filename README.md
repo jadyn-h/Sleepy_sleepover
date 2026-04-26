@@ -6,6 +6,12 @@ The visual novel is contained in a website and within the visual novel, there ar
 
 This project features HTML, CSS, Javascript, RenPY and the minigames were made in Gamemaker.
 
+Stack:
+HTML/CSS - Website
+Ren'Py - Visual novel
+Game Maker - Games
+Javascript - Integration
+
 - Funmi made the visual novel in RenPy
 - Ray made the mini games in Gamemaker
 - Jadyn made the website for Sleepy
