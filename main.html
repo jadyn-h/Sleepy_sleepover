@@ -84,6 +84,10 @@
                 translate: 0 0;
             }
         }
+        .frame {
+            transform: scale(0.5);
+            margin-left: -350px;
+        }
     </style>
         
     
@@ -151,15 +155,14 @@
 
     <h5 class = "image_reveal" >Play Now</h5>
     
-    <iframe src="web-build/index.html" frameborder="0" height="1920px" width="1080px" title="Game Frame" id="vnframe"></iframe>
-    <iframe src="sleepy_website_design_frame.jpg" frameborder="0" height="1920px" width="1080px" title="Game Frame" id="minigameframe"></iframe>
+    <iframe src="sleepy-1.0-dists/sleepy-1.0-web/index.html" frameborder="0" height="1080px" width="1920x" title="Game Frame" id="vnframe" class="frame" scrolling="no"></iframe>
+    <iframe src="sleepy_website_design_frame.jpg" frameborder="0" height="1080px" width="1920px" title="Game Frame" id="minigameframe" class="frame" scrolling="no"></iframe>
     <script src="main.js" defer></script>
 
     <div class = "clouds">
         <img src="clouds.jpg" alt="Clouds"
         width="cover"
-        height="500"
-        >
+        height="500">
     </div>
 </body>
 
