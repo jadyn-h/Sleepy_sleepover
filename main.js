@@ -1,14 +1,23 @@
 let vnframe = document.getElementById("vnframe");
 let mgframe= document.getElementById("minigameframe")
-let gamesLi = ["game1.html","game2.html","game3.html"]
+let gamesLi = ["pizza.html","boba.html","bean.html", "hack.html"]
 let currentpart = 0;
+
+vnframe.onload = swapDisplay("vn");
+
 
 function loadMiniGame(type){
     if (type=="pizza"){
-        mgframe.src = gamesLi[0]
+        mgframe.src = gamesLi[0];
     }
     else if (type=="boba"){
-        mgframe.src = gamesLi[1]
+        mgframe.src = gamesLi[1];
+    }
+    else if (type=="bean"){
+        mgframe.src = gamesLi[2];
+    }
+    else if (type=="hack"){
+        mgframe.src = gamesLi[3];
     }
 }
 
