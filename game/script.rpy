@@ -60,8 +60,8 @@ label regardless:
 
 label pizza_path:
     #run pizza game
-    renpy.emscripten.run_script('swapDisplay("game")')
-    renpy.emscripten.run_script('loadMinigame("pizza")')
+    $ renpy.emscripten.run_script('swapDisplay("game")')
+    $ renpy.emscripten.run_script('loadMinigame("pizza")')
     #..
 
     play music "audio/music2.mp3" fadein 0.5 #other background music
@@ -78,8 +78,8 @@ label pizza_path:
 
 label boba_path:
     #run boba game
-    renpy.emscripten.run_script('swapDisplay("game")')
-    renpy.emscripten.run_script('loadMinigame("boba")')
+    $ renpy.emscripten.run_script('swapDisplay("game")')
+    $ renpy.emscripten.run_script('loadMinigame("boba")')
     #..
     play music "audio/music2.mp3" fadein 0.5 #other background music
     scene bedroom:
@@ -120,8 +120,8 @@ label part2:
 
 label the_bean_path:
     #run the bean game
-    renpy.emscripten.run_script('swapDisplay("game")')
-    renpy.emscripten.run_script('loadMinigame("bean")')
+    $ renpy.emscripten.run_script('swapDisplay("game")')
+    $ renpy.emscripten.run_script('loadMinigame("bean")')
     #..
     play music "audio/music2.mp3" fadein 0.5 #other background music
     scene bedroom with fade
@@ -133,8 +133,8 @@ label the_bean_path:
 
 label hackathon_path:
     #run the hackathon game
-    renpy.emscripten.run_script("swapDisplay("game")")
-    renpy.emscripten.run_script("loadMinigame("hack")")
+    $ renpy.emscripten.run_script('swapDisplay("game")')
+    $ renpy.emscripten.run_script('loadMinigame("hack")')
     #..
     play music "audio/music2.mp3" fadein 0.5 #other background music
     scene bedroom with fade
