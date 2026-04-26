@@ -1,0 +1,11 @@
+.DS_Store
+.claude/
+.venv/
+renpy-8.5.2-sdk/
+web-build/
+web-build.zip
+test-*.png
+game/cache/
+game/saves/
+log.txt
+*.rpyc
