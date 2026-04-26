@@ -1,4 +1,4 @@
-# sleepy
+# Sleepy
 Funmi, Jadyn, and Ray's project for Sleepover!
 
 Our project is called Sleepy and it's a game that is hosted in a website that explores how the events of the day affect your dreams! Sleepover's theme was 'In Your Dreams' so we created a visual novel that takes a user through some choices in their day and those choices are reflected in the dream mini games in the sleep portion.
