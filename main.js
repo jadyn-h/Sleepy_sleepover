@@ -3,10 +3,10 @@ let mgframe= document.getElementById("minigameframe")
 let gamesLi = ["pizza.html","boba.html","bean.html", "hack.html"]
 let currentpart = 0;
 
-vnframe.onload = swapDisplay("vn");
+vnframe.onload = () => swapDisplay("vn");
 
 
-function loadMiniGame(type){
+function loadMinigame(type){
     if (type=="pizza"){
         mgframe.src = gamesLi[0];
     }
