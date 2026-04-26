@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <head>    
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
     <title>Feeling Sleepy?</title>  
     <style>
         body{
@@ -7,8 +11,12 @@
             color: white;
             text-decoration: none;
             background-color: #10163f;
-
+            font-family: "Comfortaa", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 550;
+            font-style: normal;
             }
+        
         .top {
                 background-image: url(sleepy_web_design.jpg);
                 height: 75vh;
@@ -55,6 +63,10 @@
             display: block;
             margin-right: 850px;
         }
+        .clouds {
+            display: block;
+            margin-top: 850px;
+        }
         .image_reveal {
             animation: image_reveal both;
             animation-timeline: view(50% 20%);
@@ -91,13 +103,14 @@
 
     <div class = "eyemask">
         <img src="mask.png" alt="Eyemask"
-        width="150"
+        width="170"
         height="150"
         class = "image_reveal"
         >
     </div>
 
-    <h4>Zzzzz</h4>
+    <h4 class = "image_reveal"> Zzzzz 
+    </h4>
 
     <div class = "star">
         <img src="star2.png" alt="Star"
@@ -107,18 +120,20 @@
         >
     </div>
 
-    <h5>Zzzz</h5>
+    <h5 class = "image_reveal" 
+    >Zzzz</h5>
 
     <div class = "moon">
         <img src="moon2.png" alt="Moon"
-        width="150"
+        width="170"
         height="200"
         class = "image_reveal"
         >
     </div>
     
 
-    <h6>Zzz</h6>
+    <h6 class = "image_reveal"
+    >Zzz</h6>
 
     
     <div class = "pillow">
@@ -128,13 +143,15 @@
         class = "image_reveal"
         >
     </div>
-    <h6>Huh, oh!</h6>
+    <h6 class = "image_reveal"
+    >Huh, oh!</h6>
 
-    <p>Oh sorry I fell asleep, and with this 
+    <p class = "image_reveal">Oh sorry I fell asleep, and with this 
     relaxing game, you will too...</p>
-    <p>Surrender to your dreams with Sleepy</p>
+    <p class = "image_reveal">Surrender to your dreams with Sleepy</p>
 
-    <h5>Play Now</h5>
+    <h5 class = "image_reveal">Play Now</h5>
+    
     <iframe src="sleepy_website_design_frame.jpg" frameborder="0" height="1920px" width="1080px" title="Game Frame" id="vnframe"></iframe>
     <iframe src="sleepy_website_design_frame.jpg" frameborder="0" height="1920px" width="1080px" title="Game Frame" id="minigameframe"></iframe>
     <script src="main.js" defer></script>
